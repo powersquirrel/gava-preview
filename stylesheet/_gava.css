@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Roboto:ital,wght@0,400;1,300&display=swap');
+*{
+    margin: 0px;
+}
+.jumbotron{
+    background-color: #FFAFCC;
+}
+/*Navbar*/
+.navbar-title-custom{
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+}
+.jumbotron > h1{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+.btn-primary{
+    background-color: #a6acec;
+}
+/*Top message*/
+.top-message{
+    background-color: rgb(35, 35, 35);
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+.top-message > h5{
+    text-align: center;
+    color: whitesmoke;
+}
+/*Footer*/
+.footer{
+    border-top: 5px solid #6368a2;
+    background-color: #a6acec; 
+    height: auto;
+    padding: 20px;
+}
+.col > h5{
+    font-weight: bolder;
+}
+.col > h6,
+.col > i{
+    color: whitesmoke;
+    font-weight: bold;
+}
+.footer-bottom{
+    background-color: rgb(35, 35, 35);
+    width: 100%;
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+.footer-bottom > h6{
+    text-align: center;
+    color: whitesmoke;
+}
+/*Carousel*/
+.carousel{
+    margin-top: 0px;
+}
+/*Sección compras*/
+.container-compras{
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.btn-custom{
+    border: 5px solid #a6acec;
+    background-color: transparent;
+}
